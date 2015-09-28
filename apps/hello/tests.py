@@ -6,7 +6,7 @@ from .models import User
 
 
 class HelloTest(TestCase):
-    fixtures = ['hello']
+    fixtures = ['initial_data']
 
     def test_fixture_with_personal_data(self):
 

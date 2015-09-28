@@ -205,5 +205,16 @@
     "email": "admin@example.com", 
     "date_joined": "2015-09-28T11:46:15.749Z"
   }
+},
+{
+  "pk": 1,
+  "model": "hello.user",
+  "fields": {
+    "bio": "living",
+    "date_of_birth": "1989-01-02",
+    "surname": "Shevtsov",
+    "name": "Alexey",
+    "contacts": "muslyaster@gmail.com"
+  }
 }
 ]
