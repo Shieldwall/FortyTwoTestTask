@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}
+    Shieldwall
+{% endblock %}
+
+{% block content %}
+    <h3>User - shieldwall:</h3>
+    <ul>
+        <li>Name: {{ user.name }}</li>
+        <li>Surname: {{ user.surname }}</li>
+        <li>Date of birth: {{ user.date_of_birth }}</li>
+        <li>Biography: {{ user.bio }}</li>
+        <li>Contacts: {{ user.contacts }}</li>
+    </ul>
+{% endblock %}
